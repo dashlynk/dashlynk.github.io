@@ -97,7 +97,7 @@ $(document).ready(function () {
                 youtube: {
                     index: 'youtube.com/',
                     id: 'v=',
-                    src: 'http://www.youtube.com/embed/%id%?autoplay=1'
+                    src: 'https://www.youtube.com/embed/%id%?autoplay=1'
                 }
             }
         }
@@ -145,7 +145,7 @@ $(document).ready(function () {
     -----------------------------------*/
     $(".subscription").ajaxChimp({
         callback: mailchimpResponse,
-        url: "http://codepassenger.us10.list-manage.com/subscribe/post?u=6b2e008d85f125cf2eb2b40e9&id=6083876991" // Replace your mailchimp post url inside double quote "".  
+        url: "https://codepassenger.us10.list-manage.com/subscribe/post?u=6b2e008d85f125cf2eb2b40e9&id=6083876991" // Replace your mailchimp post url inside double quote "".  
     });
 
     function mailchimpResponse(resp) {
