@@ -3,7 +3,7 @@
         "apps": [],
         "details": [{
             "appID": "53F2YQCQ58.io.dashlynk.dashlynk",
-            "paths": ["[/*"]
+            "paths": ["*"]
         }]
     }
 }
